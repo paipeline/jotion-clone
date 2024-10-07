@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://talented-cod-43.clerk.accounts.dev",
+      domain: "https://related-seagull-38.clerk.accounts.dev",
       applicationID: "convex",
     },
   ],
