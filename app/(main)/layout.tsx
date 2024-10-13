@@ -7,6 +7,8 @@ import { Navigation } from "@/components/main/navigation";
 import { SearchCommand } from "@/components/search-command";
 import React from "react";
 
+import { RecordingButton } from "@/components/main/recording-button"
+
 export default function MainLayout({
   children,
 }: {
@@ -32,6 +34,9 @@ export default function MainLayout({
       <main className="flex-1 h-full overflow-y-auto">
         <SearchCommand />
         {children}
+        <div className="fixed right-5 bottom-0">
+          <RecordingButton />
+        </div>
       </main>
     </div>
   );
